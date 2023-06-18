@@ -112,6 +112,7 @@ img {
     padding: 1em;
     border: 1px solid #ccc;
     max-width: 600px;
+    
 }
 
 .close {
@@ -135,8 +136,16 @@ img {
 
 .cart-items li span {
     margin-left: 0.5em;
+   
 }
 
+.cart-items li {
+    align-items: center;
+}
+
+.cart-items li button{
+    margin-top: 0.5em;
+}
 .cart-total {
     font-weight: bold;
 }
@@ -151,3 +160,15 @@ img {
     cursor: pointer;
     margin-top: 1em;
 }
+
+.remove-from-cart-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
